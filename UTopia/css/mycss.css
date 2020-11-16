@@ -1,0 +1,99 @@
+@font-face
+{
+    font-family: HelveticaThin, sans-serif;
+    font-weight: 100;
+    src: url(../Font/helveticaneue/HelveticaNeue\ Thin.ttf.ttf) format('ttf');
+}
+
+@font-face{
+    font-family: HelveticaBold, sans-serif;
+    font-weight: 600;
+    src: url(../Font/helveticaneue/Helvetica\ Neu\ Bold.ttf) format('ttf');
+}
+
+.bold-text
+{
+    font-family: HelveticaBold, sans-serif;
+    font-weight: 600;
+}
+
+body{
+    background-color: #FFFAFA;
+}
+
+.red-circle
+{
+    background-color: #ff2f2f;
+    width: 314px;
+    height: 314px;
+    border: 1px #ff2f2f;
+    border-radius: 50%;
+}
+
+.triangle-up {
+	width: 0;
+    height: 0;
+    border-radius: 10px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    border-bottom: 50px solid #555;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: #555;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(255, 108, 0, 0.2); 
+  }
+
+.text-white
+{
+    color: white;
+}
+
+.text-dark
+{
+    color: #494B67;
+}
+
+.text-red
+{
+    color: #FC5774 !important;
+}
+
+.main-background
+{
+    background-color: #FFFAFA;
+}
+
+.red-background
+{
+    background-color: #FC5774;
+}
+
+.border-41
+{
+    border-radius: 41px;
+}
+
+.border-33
+{
+    border-radius: 33px;
+}
+
+.button-map
+{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 278%;
+    left: 49%;
+}
+
+.button-map-text
+{
+    position: absolute;
+    top: -7%;
+    left: 26%;
+}
